@@ -143,7 +143,7 @@ class LifeGame(Tk.Frame):
         self.redraw()
 
     def interval(self):
-        """Chage generation automatically.
+        """Change generation automatically.
         """
         if self.anime:
             self.nextlife()
