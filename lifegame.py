@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """Life game
 """
-import Tkinter as Tk
+import tkinter as Tk
 
 from cellmap import CellMap
 

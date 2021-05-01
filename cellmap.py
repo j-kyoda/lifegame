@@ -211,6 +211,6 @@ if __name__ == "__main__":
         cm.set_alive(cx + ox, cy + oy, True)
 
     for i in range(30):
-        print '[%02d]' % i
-        print dump(cm)
+        print('[%02d]' % i)
+        print(dump(cm))
         cm.change_next()
